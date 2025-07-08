@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MainProgramSystem.MainProgram</StartupObject>
+    <StartupObject>AbstractClassInheritance.MainProgram</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,20 +46,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstraction\AbstractClass.cs" />
     <Compile Include="Class\1.Fields.cs" />
     <Compile Include="Class\2.Properties.cs" />
     <Compile Include="Class\Basics.cs" />
     <Compile Include="Class\ConstReadonly.cs" />
     <Compile Include="Class\Constructors.cs" />
     <Compile Include="Class\Static.cs" />
+    <Compile Include="Implementation\EmployeProgram.cs" />
+    <Compile Include="Implementation\InterfaceBasics.cs" />
+    <Compile Include="Implementation\InterfaceInheritance.cs" />
+    <Compile Include="Implementation\RemoteProgram.cs" />
+    <Compile Include="Inheritance\AbstractClassInheritance_1.cs" />
+    <Compile Include="Inheritance\ClassInheritance_1.cs" />
     <Compile Include="Inheritance\Inheritance_2.cs" />
     <Compile Include="Inheritance\ClassInheritance.cs" />
+    <Compile Include="Inheritance\InterfaceInheritance_1.cs" />
     <Compile Include="Namespace\AllFiles.cs" />
     <Compile Include="Namespace\ExcelFiles.cs" />
     <Compile Include="Namespace\MainProgram.cs" />
     <Compile Include="Namespace\PPTFiles.cs" />
     <Compile Include="Namespace\WordFiles.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
