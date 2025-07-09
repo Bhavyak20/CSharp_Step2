@@ -52,6 +52,8 @@ namespace InterfaceInheritanceProgram
     {
         static void Main()
         {
+            
+
             BMWCar bmw = new Car();
             bmw.CarBrand();
             bmw.CarOwner("Raj");

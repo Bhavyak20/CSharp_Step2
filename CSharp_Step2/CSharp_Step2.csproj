@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AbstractClassInheritance.MainProgram</StartupObject>
+    <StartupObject>RunTimePolymorphism.MainProgram</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -67,6 +67,8 @@
     <Compile Include="Namespace\MainProgram.cs" />
     <Compile Include="Namespace\PPTFiles.cs" />
     <Compile Include="Namespace\WordFiles.cs" />
+    <Compile Include="Polymorphism\CompileTimePolymorphism1.cs" />
+    <Compile Include="Polymorphism\RunTimePolymorphism1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
