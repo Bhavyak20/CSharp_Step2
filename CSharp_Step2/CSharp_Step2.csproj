@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>RunTimePolymorphism.MainProgram</StartupObject>
+    <StartupObject>RuntimPolyPrcatice.MainProgram</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -59,7 +59,7 @@
     <Compile Include="Implementation\RemoteProgram.cs" />
     <Compile Include="Inheritance\AbstractClassInheritance_1.cs" />
     <Compile Include="Inheritance\ClassInheritance_1.cs" />
-    <Compile Include="Inheritance\Inheritance_2.cs" />
+    <Compile Include="Inheritance\ClassInheritance_2.cs" />
     <Compile Include="Inheritance\ClassInheritance.cs" />
     <Compile Include="Inheritance\InterfaceInheritance_1.cs" />
     <Compile Include="Namespace\AllFiles.cs" />
@@ -69,10 +69,19 @@
     <Compile Include="Namespace\WordFiles.cs" />
     <Compile Include="Polymorphism\CompileTimePolymorphism1.cs" />
     <Compile Include="Polymorphism\RunTimePolymorphism1.cs" />
+    <Compile Include="Practice\AbstractClass.cs" />
+    <Compile Include="Practice\ClassPractice.cs" />
+    <Compile Include="Practice\Inheritance-1.cs" />
+    <Compile Include="Practice\Interface.cs" />
+    <Compile Include="Practice\NameSpace-1.cs" />
+    <Compile Include="Practice\NamespaceMain.cs" />
+    <Compile Include="Practice\CompileTimePolymophisim.cs" />
+    <Compile Include="Practice\RunTimePolymorphism.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
