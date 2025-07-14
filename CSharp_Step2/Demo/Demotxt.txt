@@ -1,0 +1,16 @@
+﻿Inheritance:
+-->Inheritance ie between Class to class
+-->By using Inheritance we can access Fields,Methods Properties and all members from Base class to Derived class.
+-->For Inheriting all memebers in base class must be Public or protected.
+-->We can only inherit one class.
+syntax:
+class Parent{
+}
+class child:Parent{
+}
+
+Interface:
+-->Interface is like a contract in a program
+-->It just defines the rules (Properties methods events).
+-->we implement the rules in class by using iheritence concpet.
+-->Here we can have multiple intefaces for inheritane to class.
