@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>InterfaceDEMO.MainProgram</StartupObject>
+    <StartupObject>LoopinGDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -55,6 +55,7 @@
     <Compile Include="Class\Static.cs" />
     <Compile Include="Demo\Inheritance_Demo.cs" />
     <Compile Include="Demo\InterfaceDemo.cs" />
+    <Compile Include="Demo\LoopingDemo.cs" />
     <Compile Include="Implementation\EmployeProgram.cs" />
     <Compile Include="Implementation\InterfaceBasics.cs" />
     <Compile Include="Implementation\InterfaceInheritance.cs" />
